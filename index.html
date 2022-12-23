@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="tools">
+                <div id="palette"></div>
+                <div id="lineWidth">
+                    <hr class="lineWidth__line">
+                    <input type="button" id="onePixel">
+                    <hr class="lineWidth__line">
+                    <input type="button" id="twoPixels">
+                    <hr class="lineWidth__line">
+                    <input type="button" id="threePixels">
+                    <hr class="lineWidth__line">
+                    <input type="button" id="fourPixels">
+                    <hr class="lineWidth__line">
+                    <input type="button" id="fivePixels">
+                </div>
+                <div>
+                    <input type="button" value="Clear image" id="clear">
+                    <input type="button" value="Save image" id="save" onclick="saveImage()">
+                </div>
+            </div>
+            <canvas id="canvas" width="800" height="500">Your browser</canvas>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
